@@ -46,5 +46,4 @@ class SayHello(App):
 		self.greeting.text = "Hello " + self.user.text + "!"
 
 
-if __name__ == "__main__":
-    SayHello().run()
+MainApp().run()
